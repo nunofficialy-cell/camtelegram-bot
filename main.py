@@ -2,9 +2,9 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = os.environ.get("BOT_TOKEN")
+TOKEN = os.environ.get("8576500709:AAGZzZk95NdORL61N_crHOFbcUV27DC2QFk")
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def start(update: Update, context):
     await update.message.reply_text("សួស្តី 👋 បញ្ជូន Link YouTube ឬ TikTok មកខ្ញុំ 😄")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
